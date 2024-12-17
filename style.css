@@ -193,24 +193,6 @@ svg {
   background-color: var(--secondary-color);
 }
 
-.form-footer {
-  width: 100%;
-  padding: 1rem;
-  background-color: var(--primary-color);
-  position: absolute;
-  bottom: 0;
-
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-  font-size: 1.2rem;
-}
-
-.form-footer .copyright {
-  font-weight: bold;
-}
-
 .image-container {
   width: 100%;
   height: 100dvh;
@@ -225,12 +207,6 @@ svg {
   transform: rotateY(180deg);
 }
 
-@media (max-width: 850px) {
-  .form-footer {
-    display: none;
-  }
-}
-
 @media (max-width: 700px) {
   .image-container {
     display: none;
@@ -243,11 +219,6 @@ svg {
 
     align-items: start;
     justify-content: start;
-  }
-
-  .form-footer {
-    width: 100%;
-    display: flex;
   }
 
   h1 {
